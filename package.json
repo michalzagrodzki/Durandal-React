@@ -1,0 +1,18 @@
+{
+  "name": "durandal-react",
+  "version": "1.0.0",
+  "description": "Example of running React components in Durandal SPA.",
+  "main": "index.html",
+  "repository": "git@github.com:michalzagrodzki/Durandal-React.git",
+  "author": "Michal Zagrodzki <michalzagrodzki@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "npx http-server ./ -c-1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  }
+}
